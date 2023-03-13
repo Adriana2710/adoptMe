@@ -1,0 +1,22 @@
+.header {
+    background-color: #36D6AD;
+    text-align: center;
+    padding-top: 40px;
+}
+
+/* .navBar {
+    background-color: #F3F3F3;
+} */
+
+.navBar li {
+    background: #FC7071;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 0 20px;
+}
+
+.logo {
+    width: 150px;
+    margin: auto;
+}

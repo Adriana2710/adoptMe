@@ -1,0 +1,16 @@
+.pets {
+    display: flex;
+    justify-content: space-around;
+    margin: 32px 0;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    color: #FC7071;
+    padding-bottom: 24px;
+    text-align: center;
+
+}
