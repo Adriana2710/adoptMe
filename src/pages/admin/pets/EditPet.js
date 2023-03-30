@@ -61,7 +61,7 @@ const EditPet = (props) => {
 
     return (
         <div>
-            {message && <p>{message}</p>}
+            {message && <p className='message success error'>{message}</p>}
             <Form onSubmit={formSubmit}>
                 <h2>Form to edit pet:</h2>
                 <div className="form-group">

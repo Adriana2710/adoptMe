@@ -22,6 +22,7 @@ const Adoption = () => {
     return (
         <div className="container">
             <h3>Look at all these precious girls & boys:</h3>
+            <h4>If you would like to adopt any of them please <a href='/contact'>Contact Us</a></h4>
             <div className="pets">
                 {pets.map(pet =>
                     <Cards

@@ -10,7 +10,8 @@ const Contact = () => {
     return (
         <div>
             <Form>
-                <h2>You can contact us using this form:</h2>
+                <h2>Contact Form</h2>
+                <h4>Please fill out the following form for any enquiries or to begin the adoption process. We will get back to you as soon as possible.</h4>
                 <div className="form-group">
                     <Label htmlFor="fname">Name:</Label>
                     <Input type="text" id="fname" name="fname" required={true} placeholder="Insert your name"/>

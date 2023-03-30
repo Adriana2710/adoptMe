@@ -32,6 +32,7 @@ img {
     max-width: 1200px;
     padding: 0 20px;
     margin: 0 auto;
+    width: 100%;
 }
 
 h1 {
@@ -50,4 +51,18 @@ h1, h2 {
 .links {
     color: #fff;
     text-decoration: none;
+}
+
+.message {
+    font-size: 16px;
+    padding: 10px;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.message.success {
+    color: black;
+    background-color: aquamarine;
 }

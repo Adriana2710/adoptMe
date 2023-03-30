@@ -5,7 +5,7 @@ const Header = () => {
     return(
         <header className='header'>
             <div className='container'>
-                <img className='logo' src='/images/logos/adoptme_logo1.jpg' alt='AdoptMe Logo' />
+                <img className='logo' src='/images/logos/logo.svg' alt='AdoptMe Logo' />
                 <nav className='navBar'>
                     <ul>
                         <li>
@@ -18,7 +18,7 @@ const Header = () => {
                             <Link to="/contact" className='links'>Contact</Link>
                         </li>
                         <li>
-                            <Link to="/admin/pets" className='links'>Admin Pets</Link>
+                            <Link to="/login" className='links'>Admin Pets</Link>
                         </li>
                     </ul>
                 </nav>

@@ -3,6 +3,7 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Adoption from "./pages/Adoption";
 import Contact from "./pages/Contact";
+import Login from "./pages/Login";
 import AddPet from "./pages/admin/pets/AddPet";
 import ListPets from "./pages/admin/pets/ListPets";
 import EditPet from "./pages/admin/pets/EditPet";
@@ -15,6 +16,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="adoption" element={<Adoption />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="login" element={<Login />} />
         </Route>
         <Route path="/admin" element={<Layout />}>
           <Route path="pets" element={<ListPets />} />
