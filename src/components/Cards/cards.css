@@ -1,6 +1,3 @@
-.card {
-    width: 280px;
-}
 
 .card .card-header {
     background-color:  #FC7071;
@@ -14,7 +11,8 @@
     overflow: hidden;
     position: relative;
     bottom: -50px;
-    left: 70px;  
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card img {

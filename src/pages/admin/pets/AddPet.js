@@ -38,7 +38,10 @@ const AddPet = () => {
         const json = response.json();
         
         json.then((jsonResponse) => {
-            setMessage(jsonResponse.message)
+            setMessage(jsonResponse.message);
+            setName("");
+            setGender("");
+            setAge("")
         })
     }
 

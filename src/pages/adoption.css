@@ -1,10 +1,31 @@
 .pets {
-    display: flex;
-    justify-content: space-around;
-    margin: 32px 0;
-    flex-wrap: wrap;
-    row-gap: 10px;
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0,1fr));
+    grid-gap: 30px;
+    margin-bottom: 50px;
+  
+}
+
+.pets .card {
+    grid-column: span 12;
+}
+
+@media screen and (min-width: 450px) {
+    .pets .card {
+        grid-column: span 6;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .pets .card {
+        grid-column: span 4;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .pets .card {
+        grid-column: span 3;
+    }
 }
 
 h3 {
