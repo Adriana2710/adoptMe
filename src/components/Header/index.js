@@ -5,14 +5,13 @@ const Header = () => {
     return(
         <header className='header'>
             <div className='container'>
-                <img className='logo' src='/images/logos/logo.svg' alt='AdoptMe Logo' />
+                <Link to="/" className='links'>
+                    <img className='logo' src='/images/logos/logo.svg' alt='AdoptMe Logo' />
+                </Link>
                 <nav className='navBar'>
                     <ul>
                         <li>
-                            <Link to="/" className='links'>Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/adoption" className='links'>Adoption</Link>
+                            <Link to="/adoption" className='links'>Pets</Link>
                         </li>
                         <li>
                             <Link to="/contact" className='links'>Contact</Link>
