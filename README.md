@@ -1,6 +1,9 @@
+<a name="readme-top"></a>
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+  <img src="./public/images/logos/logo.svg" alt="Logo" width="80" height="80">
+  
   <h3 align="center">AdoptMe - Capstone Project</h3>
 
   <p align="center">
@@ -11,7 +14,7 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details #readme-top>
+<details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -23,7 +26,6 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
