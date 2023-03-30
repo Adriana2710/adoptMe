@@ -59,7 +59,7 @@ This application is a capstone project for a Software Engineering course at AUT 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Adriana2710/adoptMe
+   git clone git@github.com:Adriana2710/adoptMe.git
    ```
 3. Install NPM packages
    ```sh
