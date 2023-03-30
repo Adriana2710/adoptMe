@@ -11,7 +11,7 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details>
+<details #readme-top>
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -33,80 +33,62 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![AdoptMe](./public/images/screenshot/adoptme.png)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+This application is a capstone project for a Software Engineering course at AUT with IOD. Its purpose is to help streamline the process of adopting a pet by providing a user-friendly and efficient platform for potential adopters to search for available pets, submit adoption applications, and connect with local shelters or rescue organizations.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
-* [![React][React.js]][React-url]
-* [![React][React.js]][React-url]
-* [![React][React.js]][React-url]
+* React
+* Node.js
+* Express.js
+* MongoDB Atlas
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/Adriana2710/adoptMe
    ```
 3. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+4. Once the dependencies are installed, you can start the project by running:
+    ```sh
+    npm start
+    The project will be available at http://localhost:3000 in your web browser. Front-End.
+    ```
+5. Once you initialized the project, you run inside the adoptMe/api:
+    ```sh
+    npm start dev
+    
+    You should receive this message: Server listenning at http://localhost:3001 / successful connection to the database
+    ```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Add Changelog
-- [ ] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
+- [1] Home Page
+- [2] Adoption Page with all pets available for adoption
+- [3] Contact Page to adopt a pet or make any enquirie 
+- [4] Admin Pets - Login Page for administrator
+    * you can use any email and password, this feature is still in progress
+- [5] When logged into a Admin Page you will have:
+    * List of pets and options to delete or edit
+    * Form to add a new pet to the page Adoption
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,11 +97,9 @@ _Below is an example of how you can instruct your audience on installing and set
 
 Adriana Silva Almeida - [@Adriana97423137](https://twitter.com/Adriana97423137) - adriana-salmeida@hotmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/Adriana2710/adoptMe](https://github.com/Adriana2710/adoptMe)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
@@ -129,13 +109,14 @@ Use this space to list resources you find helpful and would like to give credit 
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
+* [React Documentation](https://legacy.reactjs.org/docs/getting-started.html)
+* [Express.js Documentation](https://expressjs.com/)
+* [MongoDB Documentation](https://www.mongodb.com/docs/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: images/screenshot/adoptme.png
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
+
+
